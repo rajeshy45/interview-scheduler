@@ -1,0 +1,42 @@
+.filter-div {
+    display: grid;
+    grid-template-columns: 20% 20% auto;
+    align-items: center;
+}
+
+#from, #to {
+    width: 10rem;
+}
+
+.empty-img {
+    width: 25rem;
+    height: 20rem;
+}
+
+.times-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.times-div input {
+    width: 100%;
+}
+
+#date {
+    width: 12.5rem;
+}
+
+#url {
+    width: 28.85rem;
+}
+
+.participants-div {
+    height: 23rem;
+    overflow-y: scroll;
+}
+
+.p-list-item {
+    display: grid;
+    grid-template-columns: 1fr 7fr auto;
+    align-items: center;
+}
